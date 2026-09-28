@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B4-center
+sha256: 7175b6ba41856af1a698bd26de67fea1225f1a75923c7f34ffac9114500a38e3
+code: 7175-B6BA
+locked_at: 2026-09-28T17:27:16+07:00
+shapes: box=20, polygon=8
+prefill_kept: 2
+prefill_edited: 2
+new: 16

@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,medium,"Phủ điều kiện vận hành bình thường ở camera trước; dùng để phát hiện lỗi class, missing/spurious và geometry cơ bản."
+front,hard,25,high,"Ưu tiên các cảnh khó ở camera trước như đông xe, che khuất, vật thể nhỏ và điều kiện quan sát phức tạp."
+rear,normal,25,medium,"Phủ điều kiện bình thường ở camera sau; kiểm tra missing/spurious và consistency của annotation."
+rear,hard,25,high,"Tập trung cảnh khó phía sau như mật độ xe cao, occlusion và vật thể ở vùng biên."
+left,normal,25,medium,"Phủ điều kiện bình thường ở camera trái; kiểm tra độ nhất quán class và geometry."
+left,hard,25,high,"Ưu tiên cảnh khó ở camera trái, đặc biệt vùng edge và các trường hợp dễ nhầm/che khuất."
+right,normal,25,medium,"Phủ điều kiện bình thường ở camera phải; kiểm tra missing/spurious và geometry."
+right,hard,25,high,"Ưu tiên cảnh khó ở camera phải, đặc biệt vùng edge, occlusion và vật thể nhỏ."

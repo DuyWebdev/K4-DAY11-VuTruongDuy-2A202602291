@@ -1,1 +1,5 @@
-id,date,question,decision,rationale,status
+id,round,decision,reason,status,evidence
+D01,calib,"Xác định L7 là SPURIOUS","L7 là Pedestrian dư vì rider + two-wheeler đã được gộp trong một Bike theo R03","accepted","adasind_019560.jpg:L7; findings.csv"
+D02,r1_craft,"Giữ kết quả QA mù trước khi mở reference","Đã kiểm tra toàn bộ 3 frame B4-center trên QA overlay và không phát hiện lỗi cần ghi nhận trong lượt QA mù","accepted","submission/r2_qa/qa_review.md"
+D03,r3_diag,"Không kết luận discrepancy L/R/M là lỗi annotation ngay","Các cell L_only, LM_noR, RM_noL, R_only và M_only cần đối chiếu ảnh gốc và reference trước khi xác định nguyên nhân","accepted","submission/r3_diag/model_compare.md; submission/r3_diag/iou_sweep.md"
+D04,rework,"Escalate vấn đề rider/Pedestrian thành guideline patch","Case L7 cho thấy R03 cần decision check rõ hơn cho trường hợp người và xe hai bánh nằm gần nhau","escalated","submission/20_guideline_patch.md; submission/30_escalation_ticket.md"
